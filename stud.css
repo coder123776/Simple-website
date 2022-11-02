@@ -9,6 +9,7 @@
     overflow-y: scroll;
   }
   nav{
+    top: 0%;
     position: fixed;
     display: flex;
     align-items: center;
@@ -62,6 +63,20 @@
   }
 /*FF SNEL EXTRA*/
 html{
-  background-image: url(https://images5.alphacoders.com/366/366327.jpg);
+  background-image: url(bg-backgroudn.jpg);
+  background-size: cover;
 }
 /*DIT IS VOOR DE PAGINA'S*/
+div.main{
+  font-family: 'Goldman',cursive;
+  margin-top: 4.5%;
+  color: black;
+  margin-left: 40px;
+  margin-top: 10%;
+}
+div.main h1{
+  font-size: 75px;
+}
+div.main p{
+  font-size: 24PX;
+}
